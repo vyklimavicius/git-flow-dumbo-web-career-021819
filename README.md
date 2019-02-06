@@ -7,7 +7,7 @@
 * Resolve merge conflicts
 
 ## Lauren Here:
- 
+
 (╯°□°）╯︵ ┻━┻
 
 ## Instructions
@@ -24,7 +24,7 @@ Before altering your code base, open `index.html` in the browser. In the first p
 
 * Type `git branch`. This should show you that you're on the master branch.
 * Make a new branch called `add-turtle` from the master branch: `git branch add-turtle`
-* Type `git branch` again. Now you should see `master` (highlighted) and `add-turtle` 
+* Type `git branch` again. Now you should see `master` (highlighted) and `add-turtle`
 * Switch to the add-turtle branch: `git checkout add-turtle`
 * Make sure you switched successfully by typing `git branch` again. This should return `master` and `add-turtle` (highlighted).
 * In `index.html`, below the tree picture and caption section, add the turtle picture using the HTML below:
@@ -55,11 +55,11 @@ Now that you've sucessfully added a turtle pic and caption to the add-turtle bra
 
 * The first step is to switch back to the master branch: `git checkout master`
 * Now you're going to merge the add-turtle branch in: `git merge add-turtle`
-* Open up your `index.html` in the browser. How does it look? Does it have two pictures now? 
+* Open up your `index.html` in the browser. How does it look? Does it have two pictures now?
 
 While you have this change locally, your remote repo (the one up on Github) still thinks that `index.html` just has one picture, the tree/bird one. You need to tell it about this update.
 * Push the update to your master branch on your remote repo: `git push origin master`
-* To make sure this push worked, visit your fork of this repo. From there, you can double check in at least two ways: 
+* To make sure this push worked, visit your fork of this repo. From there, you can double check in at least two ways:
   1. There will be a light blue bar above the file struture of the repo:
   ![blue bar](https://s3-us-west-2.amazonaws.com/readme-photos/git-flow-update-blue-bar.png) that displays the most recent commit. This bar should have your GitHub picture followed by your GitHub name and a time stamp.
   2. Click on ![num of commits](https://s3-us-west-2.amazonaws.com/readme-photos/git-flow-update-commits.png). The most recent commit, the one at the top, should be the one you made.
@@ -150,7 +150,7 @@ Now you're going to create a `add-walrus-and-polar-bear` branch on your remote r
 
 ### Getting a Remote Branch
 
-Many times when working in groups, a developer will branch off of master, add some code, then push this new branch to the remote repo for another developer to work on. 
+Many times when working in groups, a developer will branch off of master, add some code, then push this new branch to the remote repo for another developer to work on.
 
 Since you're working on this project alone, you're going to mimic the remote creation of a new branch. For the next section, you're going to pretend to be a team member, Lauren. Lauren likes to add emoticons to readmes.
 
